@@ -1,24 +1,82 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>pageone</title>
+  <style>
+    body {
+      background-image: url('horseman.png');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+    /* Text positioning */
+    .center-text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 575px;
+    }
+
+    h1 {
+      font-size: 70px;
+      font-family: Papyrus, Times, serif;
+    }
+
+    /* Button styling */
+    .button {
+      background-color: #ff4800;
+      border: none;
+      color: rgb(13, 0, 255);
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      font-family: Papyrus, Times, serif;
+      font-weight: bold;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      border-radius: 55%;
+    }
+
+    .button:hover {
+      background-color: #0011ff;
+      color: rgb(255, 85, 0);
+    }
+
+    /* Button positioning */
+    .container {
+      height: 300px;
+      position: relative;
+    }
+
+    .center-button {
+      position: absolute;
+      top: -85%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  </style>
+
+  <title>homepage</title>
 </head>
+
 <body>
 
-<h1 style="color:purple;">hi guys welcome to my aura website...do u feel the aura</h1>
-<p>im lowk hungry</p>
-<p>homework is the bane of my existence</p>
-<p><a href="page2.html">onto the next page!</a></p>
+  <h1 style="color:rgb(255, 187, 0);" class="center-text">
+    Tiffany Yi
+  </h1>
 
-<img src="sewerslvty.jpg" alt="imageofslvt 1080x1080" width="900" height="700">
-
-<audio controls autoplay>
-  <source src="lightatendoftunnel.ogg" type="audio/ogg">
-  <source src="lightatendoftunnel.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
-
-<iframe src="https://youtu.be/a05HAY2ahJ8?si=gEBMpTMRI1YQfqrS" title="whiskers"></iframe>
+  <div class="container">
+    <div class="center-button">
+      <button onclick="document.location='about.html'" class="button">
+        About
+      </button>
+    </div>
+  </div>
 
 </body>
+
 </html>

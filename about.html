@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    body {
+      background-image: url('koposture.png');
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-size: 100% 33%;
+      background-color: #5393c8;
+    }
+
+    /* Text positioning */
+    .center-text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 600px;
+    }
+
+    h1 {
+      font-size: 65px;
+      font-family: Papyrus, Times, serif;
+    }
+
+    p {
+      font-family: Papyrus, Times, serif;
+      font-weight: bold;
+    }
+
+    /* Image positioning */
+
+    div {
+      display: flex;
+      justify-content: left;
+      align-items: left;
+      height: 100px;
+    }
+
+    /*i added w3 schools align img thing */
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .column {
+      float: left;
+      width: 50%;
+      margin-left: 200px;
+    }
+
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    /*Nav Bar*/
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      background-color: #33333300;
+      display: flex;
+      justify-content: center;
+    }
+
+    ul li a {
+      display: block;
+      color: #5393c8;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 20px;
+      font-family: Papyrus, Times, serif;
+      font-weight: bold;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      border-radius: 55%;
+    }
+
+    ul li a:hover {
+      background-color: #111111;
+    }
+  </style>
+  <title>about</title>
+</head>
+
+<body>
+
+  <ul>
+    <li><a href="index.html">Homepage</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="work.html">Work</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+
+  <h1 style="color:rgb(225, 255, 0);" class="center-text">About</h1>
+
+  <div class="row">
+    <div class="column">
+      <img src="me.jpg" alt="Portrait of Tiffany" width="405" height="270">
+    </div>
+    <div class="column">
+      <p style="color:rgb(225, 255, 0);">Hiii, my name is Tiffany! I am a second year Digital Media Arts (DMA) major
+        attending San Jose State University. I primarily work digitally using programs such as Procreate, Photoshop, and
+        Lightroom Classic. I hope to one day work as a concept artist for video games as it aligns with my interests
+        (gaming and working digitally). I also hope to one day inspire others in their pursuit of art. My passion for
+        art stems from the inspiration that I get from other artists! One principle that I have been trying to apply to
+        my process in art is “not thinking and just doing.” I think a lot of the time artists (including myself) get
+        scared to create something “ugly” and in turn end up creating less or not creating at all. Rather than staying
+        in your comfort zone, jump into the unknown and continue to do something that you don’t enjoy until you do.
+        Don’t dwell on trying to make every outcome perfect, you won’t learn anything that way :). A few random personal
+        fun facts about me unrelated to art: I REALLY REALLY love savory foods (specifically charcuterie boards and
+        steak), I enjoy go kart racing heh, anddd I like to watch 3FS on YouTube. Please stick around to see me grow as
+        an artist!!!</p>
+    </div>
+  </div>
+
+</body>
+
+</html>

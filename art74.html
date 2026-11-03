@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    body {
+      background-image: url('koposture.png');
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-size: 100% 10%;
+      background-color: #5393c8;
+    }
+
+    /* Text positioning */
+    .center-text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 600px;
+    }
+
+    h1 {
+      font-size: 65px;
+      font-family: Papyrus, Times, serif;
+    }
+
+    /*Nav Bar*/
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      background-color: #33333300;
+      display: flex;
+      justify-content: center;
+    }
+
+    ul li a {
+      display: block;
+      color: #5393c8;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 20px;
+      font-family: Papyrus, Times, serif;
+      font-weight: bold;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      border-radius: 55%;
+    }
+
+    ul li a:hover {
+      background-color: #111111;
+    }
+
+    /* Three image containers (use 25% for four, and 50% for two, etc) */
+    .column {
+      float: left;
+      width: 25%;
+      padding: 5px;
+    }
+
+    /* Clear floats after image containers */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+  </style>
+  <title>art74</title>
+</head>
+
+<body>
+
+  <ul>
+    <li><a href="index.html">Homepage</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="work.html">Work</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+
+  <h1 style="color:rgb(225, 255, 0);" class="center-text">Art 74</h1>
+
+  <div class="row">
+    <div class="column">
+      <figure>
+        <img src="meyah.jpg" alt="p3rfect" style="width:100%">
+        <figcaption>p3rfect, 2026</figcaption>
+      </figure>
+    </div>
+    <div class="column">
+      <img src="meyahglitch.jpg" alt="p3rfect" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="meyahglitchglitch.jpg" alt="p3rfect" style="width:100%">
+    </div>
+  </div>
+
+  <figure>
+    <img src="dogmemeedited.png" alt="The Current State of the World" style="width:100%">
+    <figcaption>The Current State of the World, 2026</figcaption>
+  </figure>
+
+  <video width="400" controls>
+    <source src="lettinggo.mp4" type="video/mp4">
+    <source src="lettinggo.mp4" type="video/ogg">
+    Your browser does not support HTML video.
+  </video>
+  <p>lettinggo, 2026</p>
+
+  <figure>
+    <a href="https://yitiffany.github.io/hypertext/">
+      <img src="plushiescreenshot.jpg" alt="Tiffany's Plushie Shop!" style="width:639px;height:378px;">
+      <figcaption>Tiffanys Plushie Shop!, 2026</figcaption>
+    </a>
+  </figure>
+
+</body>
